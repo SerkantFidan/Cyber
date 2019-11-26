@@ -44,6 +44,21 @@ public class reply30 {
                     System.out.println(reports);
                 }
 
+//        - Hint :
+//        The unit test assumes that item1 count is always more than 0
+//        The only situations you need to handle are either item2 count is 0 or item3 count is 0.
+//        Think simple and just handle the only item2 is 0 or  only item3 is 0 branches
+//        -build the report variable by concatenating Strings and double price values:
+//        -do not include items that have count 0, use if statement !
+//                -Calculate total price for the item and concatenate like below
+//
+//        "Item1: Tomatoes Price: 10.8, Item3: Apples Price: 31.5"
+//        Explanation: (Item2 "Cheese" is not included since its count is 0)
+//
+//        - Print the value of report variable
+//
+//                - Print total Price:
+//        "Total price: 42.3"
 
 
        // Explanation: (Item1 is "Tomatoes", count is 2, price is 5.4)

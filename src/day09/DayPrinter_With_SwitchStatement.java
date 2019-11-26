@@ -8,7 +8,7 @@ public class DayPrinter_With_SwitchStatement {
             // just like dayCode==1
             case 1 :
                 System.out.println("Day is Monday");
-                break;
+                break; // used to get out of this branch
             case 2 :
                 System.out.println("Day is Sunday");
                 break;

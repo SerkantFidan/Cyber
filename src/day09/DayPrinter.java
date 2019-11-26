@@ -2,6 +2,18 @@ package day09;
 
 public class DayPrinter {
     public static void main(String[] args) {
+         /*
+        create a variable called dayCode as int
+        *  if the dayCode is 1 --->> Monday
+        *  if the dayCode is 2 --->>Tuesday
+        *  if the dayCode is 3 --->>Wednesday
+         * if the dayCode is 4 --->>Thursday
+         * if the dayCode is 5 --->>Friday
+         * if the dayCode is 6 --->>Saturday
+         * if the dayCode is 7 --->>Sunday
+         * if none of the above just print unknown day
+         *
+        * */
 
         int dayCode = 77 ;
 
