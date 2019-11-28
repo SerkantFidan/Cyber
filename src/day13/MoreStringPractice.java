@@ -15,6 +15,17 @@ public class MoreStringPractice {
         String name = "Pumpkin";
         System.out.println(name);
 
+
+
+
+
+        // WHAT IF I REALLY WANT TO CHANGE THE NAME
+
+
+        // String is immutable , once created it can not be changed
+        // any String Actions/ methods that looks like changing the value
+        // actually creating a new String
+
         name.toUpperCase();
         System.out.println(name);
 
@@ -24,10 +35,6 @@ public class MoreStringPractice {
 
         name = name.toUpperCase();
         System.out.println(name);
-
-        // String is immutable , once created it can not be changed
-        // any String Actions/ methods that looks like changing the value
-        // actually creating a new String
 
 
 

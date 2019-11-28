@@ -9,19 +9,19 @@ public class reply30 {
                 String item1 = scan.next();
                 int count1 = scan.nextInt();
                 double price1 = scan.nextDouble();
-                System.out.println("Item1 is \"Tomatoes\", count is " + count1 +", price is " + price1);
+
 
                 System.out.println("Enter Item2, count and its price:");
                 String item2 = scan.next();
                 int count2 = scan.nextInt();
                 double price2 = scan.nextDouble();
-                System.out.println("Item2 is \"Cheese\", count is " + count2 +", price is " + price2);
+
 
                 System.out.println("Enter Item3, count and its price:");
                 String item3 = scan.next();
                 int count3 = scan.nextInt();
                 double price3 = scan.nextDouble();
-                System.out.println("Item3 is \"Apples\", count is " + count3 +", price is " + price3);
+
 
 
                 double totalPrice = count1*price1+count2*price2+count3*price3;
@@ -30,11 +30,6 @@ public class reply30 {
                 if(count1 > 0 && count2 == 0 && count3 >0){
                     totalPrice= count1*price1+count3*price3;
                     reports= "Item1: " + item1 + " Price: " + count1*price1 + ", Item3 : " + item3 + " Price: " +count3*price3;
-                    System.out.println("Total price: " + totalPrice);
-                    System.out.println(reports);
-                }else if(count1 == 0 && count2 > 0 && count3 >0){
-                    totalPrice= count2*price2+count3*price3;
-                    reports= "Item2: " + item2 + " Price: " + count2*price2 + ", Item3 : " + item3 + " Price: " +count3*price3;
                     System.out.println("Total price: " + totalPrice);
                     System.out.println(reports);
                 }else if(count1 > 0 && count2 > 0 && count3 == 0){
