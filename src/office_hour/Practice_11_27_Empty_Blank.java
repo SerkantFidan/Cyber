@@ -1,11 +1,15 @@
 package office_hour;
 
-public class Practice_11_27 {
+public class Practice_11_27_Empty_Blank {
     public static void main(String[] args) {
        String message = " I LOVE  JAVA   " ;
         System.out.println("message = <" + message + ">");
         //trim --->take out spaces at beginning and ending of a String object
         // IT DOES NOT TAKE OUT THE SPACE IN BETWEEN CHARACTERS !!!!!!!!
+
+     System.out.println(message.length());
+     System.out.println(message.indexOf("LOVE"));
+     System.out.println(message.lastIndexOf(""));
 
         String messageTrimmed = message.trim();
         System.out.println("messageTrimmed = <" + messageTrimmed + ">");
@@ -20,10 +24,10 @@ public class Practice_11_27 {
         System.out.println("emptySpacesAfterTrimmed length is = " + emptySpacesAfterTrimmed.length());
         System.out.println("emptySpacesAfterTrimmed is empty??? = " + emptySpacesAfterTrimmed.isEmpty());
 
-       // empty parentheses means we don’t need external data---> length() , indexOf(), ....
+       // empty parentheses means we don’t need external data---> length() , trim(), isEmpty(), isBlank() ....
 
         // isEmpty VS isBlank method from String class
-        // isEmpty ---->> yourString.length()>0 true else it's false
+        // isEmpty ---->> yourString.length()>0 false else it's true
         // isBlank ---->> if you have only other than white spaces, get true, else get false
         System.out.println("emptySpaces is blank or not??  " + emptySpaces.isBlank());
 

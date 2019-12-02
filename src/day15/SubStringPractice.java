@@ -51,8 +51,7 @@ public class SubStringPractice {
         //                0123456789012345
         //String movie = "Lord Of The Ring";
         // reverse lord of the ring --->> ring of the java lord
-        System.out.println(movie.substring(12,16) + movie.substring(11,12) +
-                movie.substring(5,8) + movie.substring(8,11) +movie.substring(4,5)+ movie.substring(0,5));
+
 
         String wordRing = movie.substring(12);
         String wordOfThe = movie.substring(4,12);
