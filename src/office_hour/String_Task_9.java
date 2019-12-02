@@ -14,7 +14,17 @@ public class String_Task_9 {
 //        www.nightwatch.com  --->> blackfriday
 
         Scanner scan = new Scanner(System.in);
-        System.out.println();
+        System.out.println("Enter a valid URL");
+        String webAddress = scan.nextLine();
+        if(webAddress.startsWith("www.") && webAddress.endsWith(".com")) {
+            int firstIndexDot = webAddress.indexOf(".");
+            System.out.println(firstIndexDot);
+            int lastIndexDot = webAddress.lastIndexOf(".");
+            System.out.println(lastIndexDot);
+            System.out.println(webAddress.substring(firstIndexDot + 1, lastIndexDot));
+        }else{
+            System.out.println("Invalid address");
+        }
 
 
 
