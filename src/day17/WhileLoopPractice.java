@@ -42,6 +42,7 @@ public class WhileLoopPractice {
             --counter; // counter = counter - 1;
             System.out.print(counter + " ");
 
+
         }
         System.out.println();
         System.out.println("counter after decrement = " + counter);

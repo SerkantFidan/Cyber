@@ -5,18 +5,21 @@ public class SkipCounting {
         // Skip counting by 3 from 0 till 30
         // 3 6 9 12 15 18 21 24 27 30
 
-//        int counter = 0;
-//        while(counter <= 30){
-//            System.out.print(counter + " ");
-//            counter += 3;
-//        }
+        int counter = 0;
+        while(counter <= 30){
+            System.out.print(counter + " ");
+            counter += 3;
+        }
+        System.out.println();
+        System.out.println("============================");
 
-//        int counter = 0;
-//        while(counter < 30){
-//            counter += 3;
-//            System.out.print(counter + " ");
-//
-//        }
+        int counter2 = 0;
+        while(counter2 < 30){
+            counter2 += 3;
+            System.out.print(counter2 + " ");
+
+        }
+        System.out.println();
 
         // write a program to print out an even number from 0 to 50;
         // write a program to print out an odd number from 0 to 50;

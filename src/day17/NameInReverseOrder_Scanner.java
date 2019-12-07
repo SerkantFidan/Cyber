@@ -17,6 +17,8 @@ public class NameInReverseOrder_Scanner {
             System.out.println("index " + lastCharacterIndex + " : " + name.charAt(lastCharacterIndex));
             --lastCharacterIndex;
         }
+        System.out.println();
+
         String name2 = "esra fidan";
         int name2LastIndexOf = name2.lastIndexOf("esra fidan");
         System.out.println(name2LastIndexOf);

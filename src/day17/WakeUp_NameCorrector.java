@@ -10,7 +10,7 @@ public class WakeUp_NameCorrector {
 //        System.out.println(name2);
 
 
-        //01234567
+        //             01234567
         String name = "kHumAyRa";
 
         // substring method copy the part of String inside another String
@@ -34,6 +34,11 @@ public class WakeUp_NameCorrector {
         // get the rest of the characters starting from 2nd character
         /// then make it lowercase
         //  eventually concatenate them
+
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Enter your name");
+        String name2= scan.next();
+        System.out.println(name2.toUpperCase().substring(0,1) + name2.toLowerCase().substring(1));
 
 
 
